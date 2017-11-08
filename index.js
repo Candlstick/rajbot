@@ -17,7 +17,7 @@ client.on('message', message => {
 });
 */
 client.on('message', message => {
-  if (message.author.username === 'candlestick') {
+  if (message.author.username === 'Rajnikanth') {
     message.delete(1)
     quote = Math.floor(Math.random() * 10)
     switch (quote) {
